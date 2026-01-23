@@ -11,7 +11,7 @@ public class day2 {
         System.out.println(num);
         System.out.println(Math.sqrt(64));
         // day2
-        sout
+    
 
 
     }
