@@ -97,5 +97,6 @@ public class day4{
            }
 
         }
-
+        sout
+System.out.println();
     } 
