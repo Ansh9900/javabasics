@@ -31,6 +31,57 @@
 // }
 /////////////////////////////////////////////////////////
 //solid rhombus
+// import java.util.Scanner;
+// public class day12 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int s = n-1;
+//         for(int i = 1 ;i<=n;i++){
+//             for(int j = 1;j<=s;j++){
+//                 System.out.print(" ");
+//             }
+//             s--;
+//             for(int j = 1 ;j<=n;j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }   
+//     }
+// }
+////////////////////////////////////////////
+//diamond patter
+// import java.util.Scanner;
+// public class day12 {
+//     public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+//     int k = 1;
+//     for(int i = 1;i<=n;i++){
+//         for(int j = 1 ;j<=(n-i);j++){
+//             System.out.print(" ");
+//         }
+//         for(int j = 1;j<=k ;j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//         k = k+2;
+//         }
+//         k = k-2;
+        
+//          for(int i = n;i>=1;i--){
+//         for(int j = 1 ;j<=(n-i);j++){
+//             System.out.print(" ");
+//         }
+//         for(int j = 1;j<=k ;j++){
+//             System.out.print("*");
+//         }
+//         System.out.println();
+//         k = k-2;
+//         }
+//     }
+// }
+//////////////////////////////////////////////////////////////
 import java.util.Scanner;
 public class day12 {
     public static void main(String[] args) {
@@ -41,11 +92,17 @@ public class day12 {
             for(int j = 1;j<=s;j++){
                 System.out.print(" ");
             }
-            s--;
+              s--;
             for(int j = 1 ;j<=n;j++){
-                System.out.print("*");
+                if(i==1||i==n||j==1||j==n){
+                System.out.print("*");}
+                else{
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }   
     }
 }
+
+ 
