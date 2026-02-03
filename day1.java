@@ -8,5 +8,4 @@ public class day1 {
         System.out.println(area);
         System.out.println(area);
     }
-
 }
