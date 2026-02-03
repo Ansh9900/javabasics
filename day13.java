@@ -8,10 +8,5 @@ public class day13 {
         marks[2] = sc.nextInt();
         System.out.print(marks[0]+" "+marks[1]+" "+marks[2]);
         System.out.println(marks.length);
-        
-
-
-
-
     }
 }
