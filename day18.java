@@ -32,10 +32,5 @@ public class day18 {
         i++;
         }
     System.out.println(rev);        
-
-
-
-
-
     }
 }
