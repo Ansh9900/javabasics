@@ -18,7 +18,6 @@
 //     }
 // }
 import java.util.Scanner;
-
 public class day8 {
     public static boolean ch_prime(int n){
         if (n==2) {
